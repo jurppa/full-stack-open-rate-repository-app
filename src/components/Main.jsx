@@ -15,13 +15,7 @@ const Main = () => {
   return (
     <View style={styles.container}>
       <AppBar />
-      <Text
-        fontWeight="bold"
-        fontSize="subheading"
-        style={{ paddingBottom: 10 }}
-      >
-        Rate Repository Application
-      </Text>
+      <Text style={{ paddingBottom: 10 }}>Rate Repository Application</Text>
 
       <RepositoryList />
     </View>

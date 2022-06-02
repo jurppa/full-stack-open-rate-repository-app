@@ -1,8 +1,10 @@
 const theme = {
   colors: {
-    textPrimary: "#24292e",
+    textPrimary: "white",
     textSecondary: "#586069",
     primary: "#0366d6",
+
+    background: "#473",
   },
   fontSizes: {
     body: 14,
@@ -14,6 +16,10 @@ const theme = {
   fontWeights: {
     normal: "400",
     bold: "700",
+  },
+  image: {
+    width: 50,
+    height: 50,
   },
 };
 
