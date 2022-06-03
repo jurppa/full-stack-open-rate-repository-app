@@ -19,7 +19,7 @@ const AppBar = () => {
   return (
     <View style={styles.container}>
       <Pressable onPress={() => console.log("pressed appbar")}>
-        <Text>Repositorieds</Text>
+        <Text>Repositories</Text>
       </Pressable>
     </View>
   );
