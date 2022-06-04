@@ -1,10 +1,10 @@
 const theme = {
   colors: {
     textPrimary: "white",
-    textSecondary: "#586069",
+    textSecondary: "black",
     primary: "#0366d6",
 
-    background: "#473",
+    background: "black",
   },
   fontSizes: {
     body: 14,

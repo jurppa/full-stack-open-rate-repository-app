@@ -9,17 +9,19 @@ const styles = StyleSheet.create({
   container: {
     paddingTop: Constants.statusBarHeight,
 
-    backgroundColor: theme.colors.background,
+    backgroundColor: "grey",
     height: 75,
   },
-  // ...
+  headerText: {
+    marginLeft: 50,
+  },
 });
 
 const AppBar = () => {
   return (
     <View style={styles.container}>
       <Pressable onPress={() => console.log("pressed appbar")}>
-        <Text>Repositories</Text>
+        <Text style={styles.headerText}>Repositories</Text>
       </Pressable>
     </View>
   );
