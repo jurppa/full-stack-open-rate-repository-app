@@ -1,9 +1,6 @@
 import { View, StyleSheet, Pressable } from "react-native";
 import Constants from "expo-constants";
 import Text from "./Text";
-import theme from "../theme";
-
-//
 
 const styles = StyleSheet.create({
   container: {

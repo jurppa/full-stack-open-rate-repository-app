@@ -1,12 +1,11 @@
-import { Pressable, Text, View } from "react-native-web";
+import { Pressable, View } from "react-native-web";
 import styles from "../theme";
+import Text from "./Text";
 const AppBarTab = () => {
   return (
-    <View style={styles.container}>
-      <Pressable onPress={() => console.log("pressed appbar")}>
-        <Text>Repositorieds</Text>
-      </Pressable>
-    </View>
+    <Pressable>
+      <Text>Repositorieds</Text>
+    </Pressable>
   );
 };
 export default AppBarTab;
