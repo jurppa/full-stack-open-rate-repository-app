@@ -1,10 +1,14 @@
-import { View, StyleSheet, Pressable } from "react-native";
+import { View, StyleSheet, ScrollView } from "react-native";
 import Constants from "expo-constants";
-import Text from "./Text";
+
+import SignInTab from "./SignInTab";
+import HomeTab from "./HomeTab";
 
 const styles = StyleSheet.create({
   container: {
     paddingTop: Constants.statusBarHeight,
+    flexDirection: "row",
+    justifyContent: "space-evenly",
 
     backgroundColor: "grey",
     height: 75,
@@ -17,9 +21,10 @@ const styles = StyleSheet.create({
 const AppBar = () => {
   return (
     <View style={styles.container}>
-      <Pressable onPress={() => console.log("pressed appbar")}>
-        <Text style={styles.headerText}>Repositories</Text>
-      </Pressable>
+      <ScrollView horizontal>
+        <HomeTab />
+        <SignInTab />
+      </ScrollView>
     </View>
   );
 };
